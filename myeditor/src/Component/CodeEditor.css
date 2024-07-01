@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.code-editor {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #100707;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+
+  
+}
+
+.code-input {
+  width: 100%;
+  height: 350px;
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 10px;
+  border: none;
+  outline: none;
+  resize: none;
+  background: transparent;
+  color: transparent;
+  caret-color: black;
+ 
+}
+
+.code-output {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  pointer-events: none;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.5;
+}
